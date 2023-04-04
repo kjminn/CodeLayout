@@ -1,0 +1,79 @@
+fun main() {
+//     var score = 85
+//     if(score >= 90)
+//     	println("if문:합격(장학생)")
+//     else if(score >= 60)
+//     	println("if문:합격")
+//     else
+//         println("if문:불합격")
+        
+	
+//     score = 75 / 10 * 10
+//     when(score){
+//         100 -> println("When문: 합격(장학생)")
+//         90 -> println("When문: 합격(장학생)")
+//         60, 70, 80 -> println("When문: 합격")
+//         else -> println("When문: 불합격")
+//     }
+    
+//     score = 95
+//     when(score){
+//         in 90..100 -> println("When문: 합격(장학생)")
+//         in 60..89 -> println("When문: 합격")
+//         else -> println("When문: 불합격")
+//     }
+    
+//     var one = Array<Int>(4, {0})
+//     one[0] = 10
+//     one[3] = 20
+//     for(i in one.indices)
+//    		println(one[i])
+        
+// 	var two = Array<IntArray>(3, {IntArray(4,{2})})
+// //     3행 4열의 2차원 배열
+// //     row의 index: 0~2
+// //     col의 index: 0~3
+// 	two[1][2] = 100
+//     two[2][3] = 200
+    
+//     for((i, row) in two.withIndex()){
+//         for((j, col) in row.withIndex()){
+//             print("($i, $j) = $col\t")
+//         }
+//         println()
+//     }
+    
+//     var arrList = ArrayList<Int>(3)
+//     arrList.add(10)
+//     arrList.add(20)
+//     arrList.add(30)
+//     arrList.add(40)
+//     arrList.add(50)
+    
+//     var sum = 0
+//     for(num in arrList){
+//         sum += num
+//     }
+//     println(sum)  
+    
+//     for(i in 1..10 step 1){
+//         print(" $i :: ")
+//     }
+    
+//     println()
+//     var leng = 5;
+//     for(j  in 1..leng)
+//     	print("$j / ")
+//     println()
+//     for(i in 1 until leng)
+//         print("$i | ")
+        
+	var arr1 = intArrayOf(10, 20, 30)
+    for(num in arr1)
+    	print("$num **")
+    println()
+    var arr2 = arrayOf("하나", "둘", "셋")
+    for(i in 0..2 step 1)
+    	print(arr2[i])
+    
+}
